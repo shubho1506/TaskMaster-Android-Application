@@ -26,7 +26,7 @@ Robust database integration for secure and efficient storage of tasks.
 
 **Installation**
 1. Clone this repository:
-2. git clone https://github.com/shubho1506/TaskMaster-Android-App.git  
+2. git clone https://github.com/shubho1506/TaskMaster-Android-Application.git  
 3. Open the project in Android Studio.
 4. Build and run the app on an Android device or emulator.
 
