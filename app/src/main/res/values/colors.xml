@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#F44336</color>
+    <color name="green">#0F6A03</color>
+    <color name="primary_color">#BB86FC</color>
+
+    <!-- Darker shade of the primary color used for status bar and app icon -->
+    <color name="primary_dark_color">#3700B3</color>
+
+    <!-- Accent color used in dark mode for buttons, floating action buttons, etc. -->
+    <color name="accent_color">#03DAC5</color>
+</resources>

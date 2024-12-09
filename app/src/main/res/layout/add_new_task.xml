@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editText1"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="26dp"
+        android:layout_marginBottom="9dp"
+        android:hint="Title"
+        android:paddingStart="7dp"
+        android:paddingEnd="7dp"
+        android:rotationX="0"
+        android:textSize="20sp"
+        />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editText2"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="30dp"
+        android:hint="Category"
+        android:paddingStart="7dp"
+        android:paddingEnd="7dp"
+        android:rotationX="0"
+        android:textSize="20sp"></EditText>
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editText4"
+        android:layout_marginBottom="41dp"
+        android:hint="Location"
+        android:paddingStart="7dp"
+        android:paddingEnd="7dp"
+        android:rotationX="0"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/addButton"
+        android:layout_marginBottom="24dp"
+        android:hint="TargetDate"
+        android:paddingStart="7dp"
+        android:paddingEnd="7dp"
+        android:rotationX="0"
+        android:textSize="20sp"
+        android:focusable="false"/>
+
+    <ImageView
+        android:id="@+id/calendarIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="43dp"
+        android:layout_alignEnd="@id/editText5"
+        android:layout_alignBottom="@id/editText5"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="14dp"
+        android:contentDescription="Calendar Icon"
+        android:src="@mipmap/ic_calender_logo" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editText5"
+        android:layout_marginBottom="31dp"
+        android:hint="Status"
+        android:paddingStart="7dp"
+        android:paddingEnd="7dp"
+        android:rotationX="0"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="155dp"
+        android:layout_above="@+id/editText3"
+        android:layout_marginBottom="32dp"
+        android:hint="Description"
+        android:paddingStart="7dp"
+        android:paddingEnd="7dp"
+        android:rotationX="0"
+        android:textSize="20sp"></EditText>
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="160dp"
+        android:layout_marginEnd="158dp"
+        android:layout_marginBottom="85dp"
+        android:text="Save"
+        android:backgroundTint="#D4000E"
+        android:textSize="20sp" />
+
+</RelativeLayout>

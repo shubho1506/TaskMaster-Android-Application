@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_calendar_view"
+        android:title="Calendar View"
+        android:icon="@mipmap/ic_calender_logo" /> <!-- Replace with your calendar icon drawable -->
+
+    <item
+        android:id="@+id/nav_feedback"
+        android:title="Feedback"
+        android:icon="@mipmap/ic_calender_logo" /> <!-- Replace with your feedback icon drawable -->
+
+    <item
+        android:id="@+id/nav_dark_mode"
+        android:title="Dark Mode"
+        android:icon="@mipmap/ic_calender_logo" /> <!-- Replace with your dark mode icon drawable -->
+
+
+</menu>
